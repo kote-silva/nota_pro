@@ -4,8 +4,19 @@ def primo(num):
             print("El numero", num, "no es primo")
             return
 
-    print("El numero", num, "es primo")
+    x = print("El numero", num, "es primo")
 
 
+
+def primos(num):
+    primos=[]
+    for i in range(0, num+1):
+        if primo(i):
+            primos.append(i)
+    print(primos)
+    return primos
+
+            
 a = int(input("Agrega el numero que deseas comprobar --> "))
 primo(a)
+primos(a)
