@@ -34,6 +34,4 @@ if d == "si" or d == "Si":
 
 z = input("Deseas ver su descomposicion prima? ")
 if z =="Si" or z=="si":
-    print(desc_prima(z))
-
-print("Hola mundo")
+    print(desc_prima(a))
